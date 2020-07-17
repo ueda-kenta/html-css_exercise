@@ -4,3 +4,37 @@
   box-sizing: border-box;
   color: #6c6b6b;
 }
+.list{
+	margin: 50px auto;
+	width: 960px;
+	height: auto;
+}
+ul{
+	list-style: none;
+}
+li{
+	padding: 20px;
+}
+li:nth-child(odd){
+	background-color: silver;}
+	.nine-box{
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.box{
+	height: 200px;
+	width: 30%;
+	margin-bottom: 40px;
+	float: left;
+	background-color: yellow;
+}
+.box:nth-child(4n+1){
+	background-color: orange;
+}
+.box:nth-child(3n+1){
+	margin-right: 5%;
+}
+.box:nth-child(3n){
+	margin-left: 5%;
+}
